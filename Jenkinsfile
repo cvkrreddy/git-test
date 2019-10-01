@@ -1,5 +1,5 @@
 pipeline {
-    agent cmaster
+    agent any
     stages {
         stage('One') {
                 steps {
