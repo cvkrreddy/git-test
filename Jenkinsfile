@@ -10,8 +10,8 @@ pipeline {
 	    stage('Two'){
 		    
 		steps {
-			// input('Do you want to proceed?')
-			echo "State two running"
+			 input('Do you want to proceed?')
+			//echo "State two running"
         }
 	    }
         stage('Three') {
